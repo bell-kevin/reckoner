@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-# reckoner ✳
+# reckoner
 
 **A plain-text notepad where math answers itself.**
 
