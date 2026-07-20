@@ -1,0 +1,12 @@
+{
+  "name": "reckoner",
+  "short_name": "reckoner",
+  "description": "A plain-text notepad where math answers itself.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f6f3ec",
+  "theme_color": "#1d6b52",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
