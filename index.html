@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>reckoner — a notepad where math answers itself</title>
+    <meta
+      name="description"
+      content="Free-software calculator notepad: type notes and numbers together, get live answers with units, percentages, time math, rates, and running totals. Offline, local-only, AGPL-3.0."
+    />
+    <meta name="theme-color" content="#1d6b52" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <script>
+      // apply saved theme before first paint
+      try {
+        var s = JSON.parse(localStorage.getItem("reckoner.v1") || "{}");
+        if (s.theme === "light" || s.theme === "dark") {
+          document.documentElement.setAttribute("data-theme", s.theme);
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
