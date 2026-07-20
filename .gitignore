@@ -3,3 +3,4 @@ dist/
 .selftest/
 *.log
 .DS_Store
+.env
