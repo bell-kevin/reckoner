@@ -2,6 +2,8 @@
 
 # reckoner
 
+https://bell-kevin-reckoner-1txz.bolt.host
+
 **A plain-text notepad where math answers itself.**
 
 Type notes and numbers together. Any line that parses as math gets a live
