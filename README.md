@@ -2,7 +2,7 @@
 
 # reckoner
 
-https://bell-kevin-reckoner-1txz.bolt.host
+https://mathnotepad.net
 
 **A plain-text notepad where math answers itself.**
 
