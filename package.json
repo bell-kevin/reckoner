@@ -13,7 +13,7 @@
     "selftest": "node scripts/run-selftest.mjs"
   },
   "dependencies": {
-    "react": "^19.2.7",
+    "react": "^19.3.1",
     "react-dom": "^19.3.0"
   },
   "devDependencies": {
